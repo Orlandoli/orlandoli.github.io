@@ -37,6 +37,18 @@ $$A = \{P(q_{t+1}=S_j|q_{t}=S_{i})，1&lti,j&lt N\}$$
 state is . Assuming that the sample space of the observed variable is 𝑣, the probability
 distribution of the output observed variable in the state is can be expressed as
 
+$$B = \{f(q_{t+1}=v|q_{t}=S_{i})，1&lt i&lt N,v&lt N\}$$
+
+where $𝑄_t$ is the observed random variable at time 𝑡,
+
+• The probability distribution of the initial state of the system 𝜋. The probability
+distribution of the initial state of the system can be expressed as
+
+$$𝜋 = \{P(q=S_i)，1&lti &lt N\}$$
+
+
+![image](https://user-images.githubusercontent.com/36789660/222986374-39d26f0c-1069-4826-9e12-a351ea994259.png)
+
 
 
 \frac{\frac{G}{\eta_{gas}} - \frac{C}{\eta_{coal}}}{\frac{e_{coal}}{\eta_{coal}} - \frac{e_{gas}}{\eta_{gas}}}$$
