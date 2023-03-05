@@ -12,7 +12,7 @@ redirect_from:
 
 About
 ======
-I am Junda, a currently Equity Derivatives Off-cycle Intern at Credit Suisse. Prior to that, I was a quant investment intern on Fixed Income Relative Value team at [Capstone Investment Advisor]((https://www.capstoneco.com/). I have a MSc Operation Research 
+I am Junda, a currently Equity Derivatives Off-cycle Intern at Credit Suisse. Prior to that, I was a quant investment intern on Fixed Income Relative Value team at [Capstone Investment Advisor](https://www.capstoneco.com/). I have a MSc Operation Research 
 
 My interest in financial markets was sparked 
 
