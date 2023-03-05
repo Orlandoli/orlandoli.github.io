@@ -1,6 +1,6 @@
 ---
 title: "Interest Rate Volatility Regime Classification"
-excerpt: "Financial markets have the tendency to change their behavior over time, which can create regimes or periods of fairly persistent market conditions.Modeling various market regimes can enable macroeconomically aware investment decision-making and better management of tail risks.In this project, We use the Markov Switching Dynamic Regression model to quantitatively describes the dynamic behavior of interest rate volatility with different maturity in the presence of structural breaks or regime changes.The results proved the MS-DR model to be useful, to evaluate the characteristics of volatility regimes across the yield curve.
+excerpt: "Financial markets have the tendency to change their behavior over time, which can create regimes or periods of fairly persistent market conditions.Modeling various market regimes can enable macroeconomically aware investment decision-making and better management of tail risks.In this project, We use the Markov Switching Dynamic Regression model to quantitatively describes the dynamic behavior of interest rate volatility with different maturity in the presence of structural breaks or regime changes.The results proved the MS-DR model to be useful, to evaluate the characteristics of volatility regimes across the yield curve."
 collection: portfolio
 ---
 Background
@@ -22,7 +22,7 @@ At each time point, the HMM emits a symbol and changes a state with certain prob
 Its basic elements include the following:
 
 • A collection of hidden state numbers. The discrete set 𝑆 is often used to represent different hidden states:
-$$\mathrm{S} = ${S_{1},,,S_{N}}$
+\mathrm{S} = ${S_{1},,,S_{N}}$
 
 where 𝑁 is the number of states. Use tiqs= to indicate that the HMM is in the hidden
 state is at time 𝑡, and the hidden state sequence is
