@@ -30,7 +30,7 @@ $$\mathrm{Q} = {q_{1},,,q_{N}}$$
 
 • The probability distribution 𝐴 of state transition. The probability distribution
 of state transition can be expressed as:
-
+$$\mathrm{A} = {P(q_{t+1}=S_{j}|q_{t}=S_{i}),1<i,j<N}$$
 
 • Probability distribution 𝐵 of the observed variable output under the condition of
 state is . Assuming that the sample space of the observed variable is 𝑣, the probability
