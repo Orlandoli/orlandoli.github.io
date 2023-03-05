@@ -21,7 +21,7 @@ At each time point, the HMM emits a symbol and changes a state with certain prob
 
 Its basic elements include the following:
 • A collection of hidden state numbers. The discrete set 𝑆 is often used to represent different hidden states:
-$$\mathrm{S} = {S_{1},,,S_{N}}$$
+$$\mathrm{S}$$ = {$$S_{1}$$,,,$$S_{N}$$}$$
 \frac{\frac{G}{\eta_{gas}} - \frac{C}{\eta_{coal}}}{\frac{e_{coal}}{\eta_{coal}} - \frac{e_{gas}}{\eta_{gas}}}$$
 ![image](https://user-images.githubusercontent.com/36789660/222979462-a324a71f-8ffe-4f69-a81d-93299cf68d9b.png)
 
