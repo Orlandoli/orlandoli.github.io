@@ -22,15 +22,15 @@ At each time point, the HMM emits a symbol and changes a state with certain prob
 Its basic elements include the following:
 
 • A collection of hidden state numbers. The discrete set 𝑆 is often used to represent different hidden states:
-$$S =  {S_{1},,,S_{N}} $$
+$$S =  \{S_{1},,,S_{N}\} $$
 
 where 𝑁 is the number of states. Use tiqs= to indicate that the HMM is in the hidden
 state is at time 𝑡, and the hidden state sequence is
-$${Q} = {q_{1},,,q_{N}}$$
+$${Q} = \{q_{1},,,q_{N}\}$$
 
 • The probability distribution 𝐴 of state transition. The probability distribution
 of state transition can be expressed as:
-$$A = {P(q_{t+1}=S_j|q_{t}=S_{i})}$$
+$$A = \{P(q_{t+1}=S_j|q_{t}=S_{i})，1&lti,j&lt N\}$$
 
 
 • Probability distribution 𝐵 of the observed variable output under the condition of
