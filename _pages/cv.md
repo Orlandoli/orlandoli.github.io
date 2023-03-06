@@ -11,49 +11,22 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Master of Science in Operations Research, London School of Economics and Political Science, 2021.09-2022.12
+* Bachelor of Economics in Financial Engineering, Xiamen University, 2017.09-2021.06
+* Bachelor of Science in Mathematical Statistics, Xiamen University, 2017.09-2021.06
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Equity Derivatives Off-cycle Intern, Credit Suisse, 2022.10-
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Quant Investment Intern, Capstone Investment Advisor (UK) LLP, 2022.06-2022.08
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Derivatives Trading Intern, China Securities Co., Ltd, 2021.06-2021.08
+
+* Quant Research Intern, Derivatives China Capital, 2020.01-2020.06
+
+
+
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
