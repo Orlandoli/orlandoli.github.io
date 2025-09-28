@@ -25,7 +25,9 @@
           alt="">
       </div>
     {% endif %}
-
+    
+    <img src="{{ post.cover_image }}" alt="{{ post.title }} cover" width="150">
+    
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -35,7 +37,7 @@
     </h2>
     
     
-
+    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -61,30 +63,7 @@
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
-<article class="book-item">
-  <div class="book-header">
-    <h2 class="book-title">{{ post.title }}</h2>
 
-    <div class="book-cover">
-      <img src="{{ post.cover_image }}" alt="{{ post.title }} cover">
-      <div class="book-rating">
-        {% assign full_stars = post.rating | floor %}
-        {% assign half_star = post.rating | modulo: 1 %}
-        {% assign empty_stars = 5 | minus: post.rating | ceil %}
-
-        {% for i in (1..full_stars) %}★{% endfor %}
-        {% if half_star >= 0.5 %}½{% endif %}
-        {% for i in (1..empty_stars) %}☆{% endfor %}
-      </div>
-    </div>
-  </div>
-
-  <p><strong>Last read:</strong> {{ post.last_read }}</p>
-
-  <div class="book-content">
-    {{ post.content }}
-  </div>
-</article>
 
   </article>
 </div>
