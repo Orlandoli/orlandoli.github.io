@@ -5,8 +5,7 @@ excerpt: "A fascinating dive into the skills of superforecasters."
 date: 2025-09-28   # optional, useful for sorting
 rating: 4.5       # out of 5
 Rating: ★★★★☆  
-cover_image: "/assets/images/superforecasting.jpg"
-![Book Cover](https://m.media-amazon.com/images/I/71BGLNXy7ML._SL1500_.jpg)
+cover_image: "https://m.media-amazon.com/images/I/71BGLNXy7ML._SL1500_.jpg"
 
 ---
 
