@@ -36,13 +36,12 @@
       {% endif %}
     </h2>
     
-    <div class="book-rating">
+    <div class="rating">
       {% assign full_stars = post.rating | floor %}
       {% assign half_star = post.rating | modulo: 1 %}
       {% assign empty_stars = 5 | minus: post.rating | ceil %}
 
       {% for i in (1..full_stars) %}★{% endfor %}
-      {% if half_star >= 0.5 %}½{% endif %}
       {% for i in (1..empty_stars) %}☆{% endfor %}
     </div>
     
